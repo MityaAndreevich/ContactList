@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		5F625FE726E953C200C5F04B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F625FE626E953C200C5F04B /* AppDelegate.swift */; };
 		5F625FE926E953C200C5F04B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F625FE826E953C200C5F04B /* SceneDelegate.swift */; };
-		5F625FEB26E953C200C5F04B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F625FEA26E953C200C5F04B /* ViewController.swift */; };
 		5F625FEE26E953C200C5F04B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F625FEC26E953C200C5F04B /* Main.storyboard */; };
 		5F625FF026E953C400C5F04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F625FEF26E953C400C5F04B /* Assets.xcassets */; };
 		5F625FF326E953C400C5F04B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F625FF126E953C400C5F04B /* LaunchScreen.storyboard */; };
+		5F625FFB26E9556300C5F04B /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F625FFA26E9556300C5F04B /* ContactListViewController.swift */; };
+		5F625FFD26E9564D00C5F04B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F625FFC26E9564D00C5F04B /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F625FE326E953C200C5F04B /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F625FE626E953C200C5F04B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F625FE826E953C200C5F04B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F625FEA26E953C200C5F04B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F625FED26E953C200C5F04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F625FEF26E953C400C5F04B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F625FF226E953C400C5F04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F625FF426E953C400C5F04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F625FFA26E9556300C5F04B /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		5F625FFC26E9564D00C5F04B /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				5F625FE626E953C200C5F04B /* AppDelegate.swift */,
 				5F625FE826E953C200C5F04B /* SceneDelegate.swift */,
-				5F625FEA26E953C200C5F04B /* ViewController.swift */,
 				5F625FEC26E953C200C5F04B /* Main.storyboard */,
 				5F625FEF26E953C400C5F04B /* Assets.xcassets */,
 				5F625FF126E953C400C5F04B /* LaunchScreen.storyboard */,
 				5F625FF426E953C400C5F04B /* Info.plist */,
+				5F625FFA26E9556300C5F04B /* ContactListViewController.swift */,
+				5F625FFC26E9564D00C5F04B /* Contact.swift */,
 			);
 			path = ContactList;
 			sourceTree = "<group>";
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F625FEB26E953C200C5F04B /* ViewController.swift in Sources */,
+				5F625FFD26E9564D00C5F04B /* Contact.swift in Sources */,
 				5F625FE726E953C200C5F04B /* AppDelegate.swift in Sources */,
 				5F625FE926E953C200C5F04B /* SceneDelegate.swift in Sources */,
+				5F625FFB26E9556300C5F04B /* ContactListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
