@@ -1,5 +1,5 @@
 //
-//  Contact.swift
+//  Person.swift
 //  ContactList
 //
 //  Created by Дмитрий Логачёв on 08.09.2021.
