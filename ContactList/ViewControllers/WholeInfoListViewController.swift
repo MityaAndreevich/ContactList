@@ -1,5 +1,5 @@
 //
-//  ContactListViewController.swift
+//  WholeInfoListViewController.swift
 //  ContactList
 //
 //  Created by Dmitry Logachev on 11.09.2021.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ContactListViewController: UITableViewController {
+class WholeInfoListViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
