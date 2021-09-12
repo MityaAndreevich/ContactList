@@ -16,7 +16,7 @@ class TabBarViewController: UITabBarController {
     
     private func setupViewControllers() {
         let persons = Person.getPersonsList()
-        let personListVC = viewControllers?.first as! ContactListViewController
+        guard let personListVC = viewControllers?.first as? ContactListViewController else { return }
         
         personListVC.peronsList = persons
     }

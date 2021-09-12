@@ -35,8 +35,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="8iZ-PC-alC" kind="relationship" relationship="viewControllers" id="0p6-jV-Zc0"/>
                         <segue destination="sH3-6e-wiW" kind="relationship" relationship="viewControllers" id="uhL-Ah-M8O"/>
+                        <segue destination="8iZ-PC-alC" kind="relationship" relationship="viewControllers" id="TGz-7U-pyv"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kl8-Ci-Hbc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -52,12 +52,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="wJh-mY-bPJ">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="3qz-cO-Va5" style="IBUITableViewCellStyleDefault" id="wJh-mY-bPJ">
                                 <rect key="frame" x="0.0" y="24.5" width="320" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wJh-mY-bPJ" id="lgy-Ff-80e">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3qz-cO-Va5">
+                                            <rect key="frame" x="16" y="0.0" width="288" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -66,7 +75,7 @@
                             <outlet property="delegate" destination="sH3-6e-wiW" id="e6m-Ac-Mm1"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="tLY-4P-iEQ"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" selectedImage="person" catalog="system" id="tLY-4P-iEQ"/>
                     <connections>
                         <segue destination="1jR-Ku-aNi" kind="show" id="IkF-Y9-T76"/>
                     </connections>
@@ -114,7 +123,7 @@
                             <outlet property="delegate" destination="8iZ-PC-alC" id="tHh-N4-okM"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="Qqr-ij-sBf"/>
+                    <tabBarItem key="tabBarItem" title="Whole Contacts" selectedImage="person.fill" catalog="system" id="Qqr-ij-sBf"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j7f-e7-jdf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -122,6 +131,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
