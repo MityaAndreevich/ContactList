@@ -9,4 +9,17 @@ import UIKit
 
 class TabBarViewController: UITabBarController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupViewControllers()
+    }
+    
+    private func setupViewControllers() {
+        let persons = Person.getPersonsList()
+        let personListVC = viewControllers?.first as! ContactListViewController
+        
+        personListVC.peronsList = persons
+    }
+   
+    
 }

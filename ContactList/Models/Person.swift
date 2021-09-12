@@ -2,7 +2,7 @@
 //  Person.swift
 //  ContactList
 //
-//  Created by Дмитрий Логачёв on 08.09.2021.
+//  Created by Dmitry Logachev on 08.09.2021.
 //
 
 import Foundation
